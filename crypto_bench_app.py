@@ -45,7 +45,7 @@ def step(title: str, body: str, code: str | None = None):
 # page setup
 # ----------------------------------------------------------------
 
-st.set_page_config(page_title="Crypto Demo System", page_icon="🔐", layout="wide")
+st.set_page_config(page_title="Crypto Demo System", page_icon=" ", layout="wide")
 
 st.markdown("""
 <style>
@@ -61,11 +61,11 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-st.title("🔐 Cryptography Demo System")
-st.caption("BMIT2043 · Symmetric vs Asymmetric · interactive input → process → output")
+st.title("Cryptography Demo System")
+st.caption("Symmetric vs Asymmetric · Interactive Input -> Process -> Output")
 
 tab_aes, tab_bf, tab_rsa, tab_ecc, tab_bench = st.tabs(
-    ["AES (Symmetric)", "Blowfish (Symmetric)", "RSA (Asymmetric)", "ECC (Asymmetric)", "⏱ Benchmark"]
+    ["AES (Symmetric)", "Blowfish (Symmetric)", "RSA (Asymmetric)", "ECC (Asymmetric)", " Benchmark"]
 )
 
 # ================================================================
